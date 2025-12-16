@@ -255,7 +255,7 @@ export default function ContactSection() {
 											</FormLabel>
 											<FormControl>
 												<Input
-													className=' w-full px-5 py-6 rounded-md border-2 border-gray-200 focus:border-[#283b89] focus:outline-none font-bold text-base focus:ring-2 focus:ring-[#283b89]/20 transition-all duration-300'
+													className=' w-full px-5 py-6 rounded-md border-2 border-gray-200 focus:border-[#283b89] focus:outline-none font-bold text-base text-black focus:ring-2 focus:ring-[#283b89]/20 transition-all duration-300'
 													placeholder='Ismingizni kiriting'
 													{...field}
 													disabled={isLoading}
@@ -276,7 +276,7 @@ export default function ContactSection() {
 											</FormLabel>
 											<FormControl>
 												<Input
-													className=' w-full px-5 py-6 rounded-md border-2 border-gray-200 focus:border-[#283b89] focus:outline-none font-bold text-base focus:ring-2 focus:ring-[#283b89]/20 transition-all duration-300'
+													className=' w-full px-5 py-6 rounded-md border-2 border-gray-200 focus:border-[#283b89] focus:outline-none font-bold text-base focus:ring-2 focus:ring-[#283b89]/20 transition-all duration-300 text-black '
 													placeholder='+998 90 909 09 90'
 													{...field}
 													disabled={isLoading}
@@ -292,13 +292,13 @@ export default function ContactSection() {
 									render={({ field }) => (
 										<FormItem>
 											<FormLabel className='text-sm font-semibold text-gray-700 flex items-center gap-2'>
-												<span>Telefon Raqami</span>
+												<span>Email manzilingiz</span>
 												<span className='text-red-500'>*</span>
 											</FormLabel>
 											<FormControl>
 												<Input
 													disabled={isLoading}
-													className='w-full px-5 py-6 rounded-md border-2 border-gray-200 focus:border-[#283b89] focus:outline-none font-bold text-base focus:ring-2 focus:ring-[#283b89]/20 transition-all duration-300'
+													className='w-full px-5 py-6 rounded-md border-2 border-gray-200 focus:border-[#283b89] focus:outline-none font-bold text-base focus:ring-2 focus:ring-[#283b89]/20 transition-all duration-300 text-black '
 													placeholder='Email manzilingiz'
 													{...field}
 												/>
@@ -323,7 +323,7 @@ export default function ContactSection() {
 												disabled={isLoading}
 											>
 												<FormControl>
-													<SelectTrigger className='w-full px-5 py-6 rounded-md border-2 border-gray-200 focus:border-[#283b89] focus:outline-none font-bold text-base focus:ring-2 focus:ring-[#283b89]/20 transition-all duration-300'>
+													<SelectTrigger className='w-full px-5 py-6 rounded-md border-2 border-gray-200 focus:border-[#283b89] focus:outline-none font-bold text-base focus:ring-2 focus:ring-[#283b89]/20 transition-all duration-300 text-black '>
 														<SelectValue placeholder='Xizmat turini tanlang' />
 													</SelectTrigger>
 												</FormControl>
@@ -361,7 +361,7 @@ export default function ContactSection() {
 											<FormControl>
 												<Textarea
 													disabled={isLoading}
-													className='w-full min-h-37.5 rounded-md border-2 border-gray-200 focus:border-[#283b89] focus:outline-none font-bold text-base focus:ring-2 focus:ring-[#283b89]/20 transition-all duration-300'
+													className='w-full min-h-37.5 rounded-md border-2 border-gray-200 focus:border-[#283b89] focus:outline-none font-bold text-base focus:ring-2 focus:ring-[#283b89]/20 transition-all duration-300 text-black '
 													placeholder='Xabaringizni yozing...'
 													{...field}
 												/>
