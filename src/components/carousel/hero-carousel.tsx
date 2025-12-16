@@ -79,9 +79,6 @@ export default function HeroCarousel() {
 									<div className='text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-2'>
 										{slide.title}
 									</div>
-									<div className='text-5xl md:text-6xl lg:text-7xl font-bold leading-tight'>
-										{slide.title2}
-									</div>
 								</h1>
 
 								{/* Description */}
