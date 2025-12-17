@@ -38,7 +38,7 @@ function Navbar() {
 						{menuItems.map(item => (
 							<li
 								key={item.id}
-								className='relative group cursor-pointer'
+								className='relative group cursor-pointer '
 								onClick={() => handleScroll(item.id)}
 							>
 								<span className='transition-colors duration-300 group-hover:text-primary text-black'>
@@ -64,7 +64,7 @@ function Navbar() {
 
 					{/* Mobile menu icon */}
 					<button onClick={() => setOpen(!open)} className='md:hidden text-3xl'>
-						{open ? <HiX /> : <HiOutlineMenuAlt3 />}
+						{open ? <HiX className='text-black' /> : <HiOutlineMenuAlt3 />}
 					</button>
 				</nav>
 
@@ -75,7 +75,7 @@ function Navbar() {
 							{menuItems.map(item => (
 								<li
 									key={item.id}
-									className='hover:text-primary cursor-pointer'
+									className='hover:text-primary cursor-pointer text-black'
 									onClick={() => handleScroll(item.id)}
 								>
 									{item.name}
