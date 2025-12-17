@@ -64,7 +64,11 @@ function Navbar() {
 
 					{/* Mobile menu icon */}
 					<button onClick={() => setOpen(!open)} className='md:hidden text-3xl'>
-						{open ? <HiX className='text-black' /> : <HiOutlineMenuAlt3 />}
+						{open ? (
+							<HiX className='text-black' />
+						) : (
+							<HiOutlineMenuAlt3 className='text-black' />
+						)}
 					</button>
 				</nav>
 
